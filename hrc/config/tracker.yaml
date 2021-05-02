@@ -1,0 +1,30 @@
+---
+tracker_config:
+  - telemetry_topics:
+      position_subscribe: "personnel/position"
+    tracker_id: 1
+    model_error:                    # 'Q' matrix RAKF
+    - 1     # X-axis
+    - 1     # Y-axis
+    - 1     # Z-axis
+    measurement_error:              # 'R' matrix RAKF
+    - 0.5   # X-axis
+    - 0.5   # Y-axis
+    - 0.5   # Z-axis
+    residual_threshold:             # 'c' RAKF
+    - 0.2   # X-axis
+    - 0.2   # Y-axis
+    - 0.2   # Z-axis
+    adaptive_threshold:             # 'c0' RAKF
+    - 0.1   # X-axis
+    - 0.1   # Y-axis
+    - 0.1   # Z-axis
+    initial_position:               # Initial starting position
+    - 0     # X-axis
+    - 0     # Y-axis
+    - 0     # Z-axis
+    estimator_parameter_count: 10   # Weighted least squares sample parameter size
+
+
+    forgetting_factor: 0.98
+

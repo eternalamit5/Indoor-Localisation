@@ -1,0 +1,9 @@
+
+# Setting up Jupyter notebook with virtual environment
+
+## Activate venv
+source venv/bin/activate
+
+## In venv run below command
+ipython kernel install --user --name="Indoor-Localization"
+

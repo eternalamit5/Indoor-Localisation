@@ -1,0 +1,28 @@
+---
+rakf_config:
+  - tag_id: 1
+    model_error:
+    - 1
+    - 1
+    - 1
+    measurement_error:
+    - 0.5
+    - 0.5
+    - 0.5
+    residual_threshold:
+    - 0.2
+    - 0.2
+    - 0.2
+    adaptive_threshold:
+    - 0.1
+    - 0.1
+    - 0.1
+    initial_position:
+    - 0
+    - 0
+    - 0
+    estimator_parameter_count: 10
+    forgetting_factor: 0.5
+    region_1_factor: 1
+    region_2_factor: 2
+    region_3_factor: 20

@@ -1,0 +1,61 @@
+
+  {
+    "data": {
+      "anchorData": [
+        {
+          "anchorId": "45868",
+          "rss": -88,
+          "timestamp": 196948521520
+        }
+      ],
+      "coordinates": {
+        "x": 5497,
+        "y": 9051,
+        "z": 1000
+      },
+      "coordinatesType": 1,
+      "metrics": {
+        "latency": 35,
+        "rates": {
+          "packetLoss": 0.002,
+          "success": 1.063,
+          "update": 1.064
+        }
+      },
+      "tagData": {
+        "accelerometer": [
+          [
+            -92,
+            -956,
+            528
+          ],
+          [
+            -16,
+            -952,
+            500
+          ],
+          [
+            -96,
+            -904,
+            524
+          ]
+        ],
+        "blinkIndex": 14084947
+      },
+      "velocity": {
+        "x": 827,
+        "y": 1307,
+        "z": 0
+      },
+      "zones": [
+        {
+          "id": "912381349",
+          "name": "my zone"
+        }
+      ]
+    },
+    "success": true,
+    "tagId": "2440423245",
+    "timestamp": 1605710950.000,
+    "version": "2.0"
+  }

@@ -1,0 +1,24 @@
+---
+walking-persons:
+- id: '1234'
+  walker-attributes:
+    walk-boundary: 100
+    avg-walk-speed-mps: 0.7
+    walk-dimension: 2
+    height_m: 1.6
+    sigmoid-attributes:
+      mid-point: 0
+      steepness: 0.3
+  outliers:
+  - mean: 0
+    standard-deviation: 0
+    number-of-outlier: 0
+    sample-size: 0
+  - mean: 0
+    standard-deviation: 0
+    number-of-outlier: 0
+    sample-size: 0
+  - mean: 0
+    standard-deviation: 0
+    number-of-outlier: 0
+    sample-size: 0

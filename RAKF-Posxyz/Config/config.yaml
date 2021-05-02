@@ -1,0 +1,21 @@
+---
+mqtt-client_config:
+- name: mqtt-client
+  host_name: 192.168.0.213
+  port: 1883
+  keep_alive_timeout: 60
+  subscribe_topics:
+  - tags
+local-telemetry_config:
+- name: mqtt-client
+  host_name: localhost
+  port: 1887
+  keep_alive_timeout: 60
+  subscribe_topics:
+  - location
+personnel:
+- name: Karsh
+  UUID: 1234567
+  tags:
+  - id: 1
+    algorithm: RAKF3D

@@ -1,0 +1,8 @@
+---
+mqtt_client_config:
+- name: mqtt_client
+  host_name: 127.0.0.1
+  port: 1887
+  keep_alive_timeout: 60
+  message_queue_capacity: 10
+

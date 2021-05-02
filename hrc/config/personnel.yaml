@@ -1,0 +1,40 @@
+---
+personnel_motion:
+  - telemetry_topics:
+      position_publish: "personnel/position"
+    personnel_id: '1234'
+    personnel_name: 'john doe'
+    walker-attributes:
+      walk-boundary: 100
+      avg-walk-speed-mps: 3
+      walk-dimension: 3
+      height_m: 1.6
+      sigmoid-attributes:
+        mid-point: 0
+        steepness: 0.5
+    outliers:
+    # X-axis
+    - mean: 0
+      standard-deviation: 2
+      number-of-outlier: 75
+      sample-size: 100
+    # Y-axis
+    - mean: 0
+      standard-deviation: 2
+      number-of-outlier: 75
+      sample-size: 100
+    # Z-axis
+    - mean: 0
+      standard-deviation: 2
+      number-of-outlier: 75
+      sample-size: 100
+
+    tracker:
+      tracker_id: 1
+      algorithm: 'RAKF'
+
+
+
+
+
+

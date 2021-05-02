@@ -1,0 +1,34 @@
+---
+robots:
+  - robot_id: '0'
+    telemetry_topics:
+      position_publish: "robot/position"
+      position_subscribe: "robot/position"
+    mode: "motion"
+    arm_count: 2
+    specs :
+      length_shoulder_to_elbow : 1
+      length_elbow_to_gripper :  1
+    base_coordinate:
+      x : 0
+      y : 0
+    sample_rate : 0.01
+    proportional_gain : 10
+    show_animation : False
+    motion_sequence : "seq-2"
+  - robot_id: '1'
+    telemetry_topics:
+      position_publish: "robot/position"
+      position_subscribe: "robot/position"
+    mode: "motion"
+    arm_count: 2
+    specs :
+      length_shoulder_to_elbow : 1
+      length_elbow_to_gripper :  1
+    base_coordinate:
+      x : 10
+      y : 10
+    sample_rate : 0.01
+    proportional_gain : 10
+    show_animation : True
+    motion_sequence : "seq-1"

@@ -1,0 +1,8 @@
+---
+data_player:
+  - mongodb_host: localhost
+    mongodb_port: 27017
+    db_name: localization
+    db_collection_name: tag_info
+    query_start_time: 2020-11-18T15:30:00Z
+    query_end_time: 2020-11-18T15:39:00Z
